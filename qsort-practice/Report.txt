@@ -1,0 +1,3 @@
+The solution contains one structure and 6 functions including the main function. 
+
+The input file is in CSV format for easier parsing. The parse_process_info function separates input strings by comma and convert the 
