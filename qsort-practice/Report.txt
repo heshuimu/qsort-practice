@@ -1,3 +1,11 @@
 The solution contains one structure and 6 functions including the main function. 
 
-The input file is in CSV format for easier parsing. The parse_process_info function separates input strings by comma and convert the 
+The input file is in CSV format for easier parsing. The "parse_process_info" function separates input strings by comma and convert the sperarated string into data that would build up a structure. 
+
+"print_process" simply prints the information of a process structure in fine format. 
+
+"linecount" counts the the lines in the input file. This is to determine the size of array to store information. 
+
+"sort_by_arrivaltime" and "sort_by_priority" are the sorting function to use in qsort. 
+
+In the main function, the program reads from the input file and count line numbers. Two arrays are then allocated based on line count. Processed information are written into the two arrays and being sorted using two sorting functions with qsort. 
